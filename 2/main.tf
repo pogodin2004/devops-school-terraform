@@ -50,8 +50,8 @@ resource "aws_db_instance" "my_database" {
   engine               = "mysql"
   engine_version       = "8.0.27"
   instance_class       = "db.t2.micro"
-  identifier           = "terraform-homework-db"
-  name                 = "my__database"
+  identifier           = "hw_db"
+  name                 = "my_database"
   username             = var.user
   password             = var.password
   skip_final_snapshot  = true
